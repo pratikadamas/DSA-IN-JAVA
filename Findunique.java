@@ -9,6 +9,7 @@ public class Findunique {
         for (int i:arr){
             val^=i;
         }
+
         return val;
     }
 }
