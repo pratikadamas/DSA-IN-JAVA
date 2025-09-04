@@ -111,6 +111,7 @@ class HashTable {
                 System.out.print("[" + head.key + " : " + head.value + "] -> ");
                 head = head.next;
             }
+
             System.out.println("null");
         }
     }
