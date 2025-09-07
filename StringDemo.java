@@ -31,6 +31,7 @@ public class StringDemo {
 
 //        System.out.println("Split result: " + parts);
 
+
         // Compare
         System.out.println("Equals 'Hello World': " + result.equals("Hello World"));
 
