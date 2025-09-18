@@ -10,6 +10,9 @@ class treenode{
 
 }
 
+
+//-------inorder traversal
+
 class  InOrderTraversal{
     public static  void inordertraversal(treenode node){
         if(node==null){
@@ -21,6 +24,25 @@ class  InOrderTraversal{
         inordertraversal(node.right);
 
     }
+//    ---------------
+
+
+//  ------------  sum problem
+
+    public static int transformsum(treenode root) {
+        if (root == null)
+            return 0;
+
+        int lsubtree = transformsum(root.left);
+        int rsubtree = transformsum(root.right);
+
+        root.data += lsubtree + rsubtree;
+
+        return root.data;
+    }
+
+
+//    -------------------
     public static void main(String[] args) {
 
       treenode root = new treenode(1);
@@ -31,6 +53,11 @@ class  InOrderTraversal{
         root.right.right = new treenode(6);
 
         inordertraversal(root);
+        System.out.println();
+
+        transformsum(root);
+        inordertraversal(root);
+
 
 
     }
