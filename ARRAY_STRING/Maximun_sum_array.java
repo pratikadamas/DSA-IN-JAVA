@@ -19,6 +19,6 @@ class Maximum_sum_array {
                 System.out.println(); // New line after each subarray
             }
         }
-        System.out.println("maximum sum is "+MAX);
+        System.out.println("maximum sum is "+ MAX);
     }
 }
