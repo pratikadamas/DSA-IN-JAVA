@@ -1,3 +1,4 @@
+package ARRAY_STRING;
 public class String_in_java {
 
     public static void main(String[] args)

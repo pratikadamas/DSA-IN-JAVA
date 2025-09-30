@@ -1,3 +1,4 @@
+package ARRAY_STRING;
 public class StringDemo {
     public static void main(String[] args) {
         // String class demonstration

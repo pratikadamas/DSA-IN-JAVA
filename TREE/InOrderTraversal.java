@@ -1,4 +1,4 @@
-
+import java.util.*;
 class treenode{
     int data;
     treenode left ,right;
@@ -57,8 +57,23 @@ class  InOrderTraversal{
 
         transformsum(root);
         inordertraversal(root);
+        System.out.println(Integer.MIN_VALUE);
 
+   HashSet <Integer> set=new HashSet<>();
 
+   set.add(45);
+   set.add(45);
+   set.add(85);
+   set.add(65);
+   set.add(78);
+        System.out.println(set);
+
+        TreeSet<Integer> numbers = new TreeSet<>();
+        numbers.add(40);
+        numbers.add(10);
+        numbers.add(30);
+        numbers.add(20);
+        System.out.println(numbers);
 
     }
 }
