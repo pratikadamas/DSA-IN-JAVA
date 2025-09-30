@@ -14,3 +14,14 @@ public class TriangularSum {
         System.out.println("The Sum value is "+arr[0]);
     }
 }
+
+// Triangular Sum
+//        1 2 3 4 5
+//        \/\/\/\/
+//         3 5 7 9
+//         \/\/ \/
+//          8 2 6
+//          \/\/
+//           0 8
+//           \/
+//            8
