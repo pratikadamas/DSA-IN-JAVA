@@ -1,5 +1,5 @@
-
-package ARRAY_STRING;
+// Application of binary search
+package SearchAndSorting;
 //"Lower bounds --- smallest index such that  arr[index]>=target"
 public class LowerBound {
 
