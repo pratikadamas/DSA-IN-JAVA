@@ -1,6 +1,6 @@
 package ARRAY_STRING;
-
-class Maximum_sum_array {
+//Total number of sub arrays for an array of size n = n(n+1)/2
+class MaximumSubArraySum {
     public static void main(String[] args) {
         int MAX=-9999;
         int arr[] = {1, 2, -3, 4, -5, 6};

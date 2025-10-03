@@ -41,6 +41,13 @@ public class RotateMatrix {
 //                [15, 11, 7, 3]
 //                [16, 12, 8, 4]
 
+//Access element: vec.get(i).get(j)
+//
+//Update element: vec.get(i).set(j, value)
+//
+//Add new row: vec.add(new Vector<>(Arrays.asList(...)))
+//
+//Add element to a row: vec.get(i).add(value)
 
 
 
