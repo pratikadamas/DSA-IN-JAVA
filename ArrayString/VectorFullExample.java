@@ -1,4 +1,4 @@
-package ARRAY_STRING;
+package ArrayString;
 
 import java.util.*;
 
@@ -94,6 +94,7 @@ public class VectorFullExample {
         for (Vector<Integer> row : vec2D) {
             System.out.println(row);
         }
+
 
         // Number of rows and columns
         int rows = vec2D.size();
