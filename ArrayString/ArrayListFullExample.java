@@ -1,4 +1,4 @@
-package ARRAY_STRING;
+package ArrayString;
 
 import java.util.*;
 
@@ -16,6 +16,7 @@ public class ArrayListFullExample {
         list1D.add(10);            // Add at end
         list1D.add(20);
         list1D.add(30);
+
         list1D.add(1, 15);         // Insert 15 at index 1
 
         System.out.println("ArrayList after additions: " + list1D);
