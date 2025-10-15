@@ -32,5 +32,10 @@ public class PriorityQueueComprehensive {
             System.out.print(maxHeap.poll() + " ");
         }
         System.out.println("\n");
+
+        Queue<Integer> queue = new PriorityQueue<>();
+        queue.addAll(Arrays.asList(30, 10, 50, 20));
+        queue.offer(-3);
+        System.out.println(queue);
     }
 }
