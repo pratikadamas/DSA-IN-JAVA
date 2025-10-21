@@ -17,5 +17,6 @@ public class containsDuplicate {
 
         int[] nums = {1,2,3,4,5,4};
         System.out.println("the Array contains duplicates -- "+containsDuplicate(nums));
+
     }
 }
