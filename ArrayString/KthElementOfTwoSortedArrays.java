@@ -41,8 +41,8 @@ public class KthElementOfTwoSortedArrays {
 
     public static void main(String[] args) {
 
-        int a[]={1,4,5,3};
-        int b[]={10,9,-4,-1,13};
+        int[] a=new int[]{1,4,5,3};
+        int[] b= new  int[]{10,9,-4,-1,13};
         System.out.println(kthElementOfTwoSortedArrays(a,b,4));
 
     }
