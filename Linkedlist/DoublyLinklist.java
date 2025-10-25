@@ -133,6 +133,7 @@ public class DoublyLinklist {
 
        d.displayReverse();
 
+
        d.insertXafterY(10,404);
         System.out.println("After insert 404 ");
 
