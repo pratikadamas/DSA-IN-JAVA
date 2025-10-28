@@ -8,6 +8,7 @@ public class DoublyLinklist {
       public  Node(int d){
             data=d;
             next=null;
+
             prev=null;
         }
     }
@@ -34,7 +35,6 @@ public class DoublyLinklist {
                 System.out.println("List is empty");
                 return;
             }
-
 
             System.out.println("Display front ");
             Node temp=head;
