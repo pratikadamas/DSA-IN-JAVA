@@ -83,5 +83,24 @@ public class StringBuilderDemo {
         // 18. trimToSize() - Trims capacity to current length
         sb2.trimToSize();
         System.out.println("Capacity after trimToSize(): " + sb2.capacity());
+
+
+        System.out.println("------------");
+
+       StringBuffer sb = new StringBuffer();
+
+        System.out.println(sb.capacity()); // 16
+
+        sb.append("Hello");
+        System.out.println(sb.capacity()); // 16
+
+        sb.append("java is my favourite language c++");
+        System.out.println(sb.capacity()); // 34
+
+        String p1="pratik";
+
+        String p2="pra"+"tik";
+        System.out.println(p1==p2);
+
     }
 }
