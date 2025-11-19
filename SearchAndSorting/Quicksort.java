@@ -18,10 +18,10 @@ public class Quicksort {
         int j = high;
 
         while (i <= j) {
-            while (i <= high && arr[i] <= pivot) {
+            while (i <= high && arr[i] < pivot) {
                 i++;
             }
-            while (j >= low + 1 && arr[j] > pivot) {
+            while (j >= low + 1 && arr[j] >=pivot) {
                 j--;
             }
             if (i < j) {
