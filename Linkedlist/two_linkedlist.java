@@ -1,3 +1,5 @@
+package Linkedlist;
+
 public class two_linkedlist {
 
     static class node {

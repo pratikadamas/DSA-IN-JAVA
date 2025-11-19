@@ -1,4 +1,4 @@
-package ARRAY_STRING;
+package ArrayString;
 public class Findunique {
     public static void main(String[] args) {
         int arr[]={1,2,3,4,1,3,2};

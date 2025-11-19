@@ -113,11 +113,7 @@ public class DoublyLinklist {
 
             }
 
-
-
        }
-
-
 
    }
 

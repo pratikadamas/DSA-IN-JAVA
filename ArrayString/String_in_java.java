@@ -1,4 +1,4 @@
-package ARRAY_STRING;
+package ArrayString;
 public class String_in_java {
 
     public static void main(String[] args)

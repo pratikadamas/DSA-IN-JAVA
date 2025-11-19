@@ -1,3 +1,5 @@
+package BitManipulation;
+
 public class Find_i_th_bit_of_a_num {
     public static void main(String[] args) {
         int a = 31;          // binary: 11111

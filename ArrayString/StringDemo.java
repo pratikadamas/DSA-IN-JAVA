@@ -1,10 +1,11 @@
-package ARRAY_STRING;
+package ArrayString;
 public class StringDemo {
     public static void main(String[] args) {
         // String class demonstration
         System.out.println("=== STRING CLASS DEMONSTRATION ===");
         String str1 = "Hello";
         String str2 = " World";
+        System.out.println("lowercase: " + str1.toLowerCase());
 
         // Concatenation
         String result = str1 + str2;

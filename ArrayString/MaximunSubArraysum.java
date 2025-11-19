@@ -1,4 +1,4 @@
-package ARRAY_STRING;
+package ArrayString;
 //Total number of sub arrays for an array of size n = n(n+1)/2
 class MaximumSubArraySum {
     public static void main(String[] args) {

@@ -3,7 +3,7 @@ package ArrayString;
 public class StringCompression {
 
     public static void main(String[] args) {
-        String str = "aaabbccccd";
+        String str = "a";
         System.out.println("Original String: " + str);
         char ch[] = str.toCharArray();
         StringBuffer sb = new StringBuffer();
@@ -21,12 +21,14 @@ public class StringCompression {
 
             // Append character and count
             sb.append(currentChar);
-            sb.append(count);
+            if(count != 1){
+             sb.append(count);}
 
             // Move to next different character
             i = j;
         }
 
+        System.out.println("Compressed String: " + sb.toString().length());
         System.out.println("Compressed String: " + sb.toString());
         // Output: a3b2c4d1
     }

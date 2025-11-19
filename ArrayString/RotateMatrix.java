@@ -1,4 +1,4 @@
-package ARRAY_STRING;
+package ArrayString;
 import java.util.*;
 
 // Rotate Matrix in 90 degree

@@ -6,7 +6,6 @@ import java.util.*;
 public class PriorityQueueComprehensive {
     public static void main(String[] args) {
         PriorityQueue<Integer> minHeap = new PriorityQueue<>();
-        
 
         minHeap.add(30);
         minHeap.add(10);

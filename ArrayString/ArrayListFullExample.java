@@ -124,5 +124,6 @@ public class ArrayListFullExample {
 
         // Clear 2D ArrayList
         // list2D.clear();
+
     }
 }

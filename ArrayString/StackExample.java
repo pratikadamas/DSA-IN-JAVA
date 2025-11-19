@@ -43,6 +43,7 @@ public class StackExample {
         // 5️⃣ search(Object o) → Return 1-based position from top
         // -------------------------------
         // Top element is position 1
+        System.out.println("Stack " + stack);
         int pos = stack.search(20);
         System.out.println("Position of 20 from top: " + pos);
         // Output: 2  (top=30→pos1, below it=20→pos2)
@@ -52,6 +53,8 @@ public class StackExample {
         // -------------------------------
         System.out.println("Size of stack: " + stack.size());
         // Output: 3
+        stack.add(126);
+        System.out.println(stack);
 
         // -------------------------------
         // 7️⃣ iterator() → Traverse stack using iterator

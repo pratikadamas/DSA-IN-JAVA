@@ -5,6 +5,7 @@ import java.util.Map;
 
 public class HashMapFunctionsDemo {
     public static void main(String[] args) {
+//        Math.sqrt()qrt();
         // 1. Creating a HashMap
         HashMap<String, Integer> map = new HashMap<>();
         System.out.println("Initial Map: " + map);
