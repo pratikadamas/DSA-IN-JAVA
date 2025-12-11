@@ -1,7 +1,5 @@
 package SearchAndSorting;
 
-//import java.util.Arrays;
-
 public class MergeSort {
 
     public static void mergesort(int[] arr, int low, int high) {
@@ -12,7 +10,6 @@ public class MergeSort {
             merge(arr, low, mid, high);
         }
     }
-
     public static void merge(int[] arr, int low, int mid, int high) {
 
         int n1 = mid - low + 1;

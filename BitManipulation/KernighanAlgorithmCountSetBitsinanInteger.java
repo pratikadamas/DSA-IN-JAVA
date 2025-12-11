@@ -11,6 +11,7 @@ public class KernighanAlgorithmCountSetBitsinanInteger {
 
         while(num>0){
             int RightmostsetBitMask= num&-num;
+
             num-=RightmostsetBitMask;
             count++;
         }

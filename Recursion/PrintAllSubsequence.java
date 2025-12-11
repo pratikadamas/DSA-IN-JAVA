@@ -1,6 +1,6 @@
 
 //subsequence is contiguous a noncontiguous sequence which follows the order
-//Total number of subsequences for an array of size n = 2^n
+//Total number of subsequences for an array of size n
 
 package Recursion;
 import java.util.ArrayList;

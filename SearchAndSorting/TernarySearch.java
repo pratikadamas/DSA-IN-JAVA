@@ -1,4 +1,6 @@
 package SearchAndSorting;
+import java.util.*;
+
 
 public class TernarySearch {
 
@@ -27,6 +29,8 @@ public class TernarySearch {
         double peak = ternarySearch(0, 10);
         System.out.println("Maximum at x = " + peak);
         System.out.println("Maximum value = " + f(peak));
+
+
     }
 }
 
