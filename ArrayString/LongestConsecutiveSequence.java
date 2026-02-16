@@ -13,16 +13,18 @@ public class LongestConsecutiveSequence {
 
         for (int num : set) {
             // Only start counting when `num - 1` does NOT exist (start of a sequence)
-            if (!set.contains(num - 1)) {
+            if (!set.contains(num - 1))
+            {
                 int current = num;
-                int streak = 1;
+                int length = 1;
 
-                while (set.contains(current + 1)) {
+                while (set.contains(current + 1))
+                {
                     current++;
-                    streak++;
+                    length++;
                 }
 
-                longest = Math.max(longest, streak);
+                longest = Math.max(longest,length);
             }
         }
 
@@ -31,6 +33,7 @@ public class LongestConsecutiveSequence {
 
     public static void main(String[] args) {
         int[] arr = {100, 4, 200, 1, 3, 2};
+
         System.out.println("Longest consecutive sequence length: " + longestConsecutive(arr));
     }
 }

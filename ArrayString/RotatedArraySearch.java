@@ -1,7 +1,9 @@
 package ArrayString;
 
-public class RotatedArraySearch {
-    public int search(int[] nums, int target) {
+public class RotatedArraySearch
+{
+    public int search(int[] nums, int target)
+    {
         int left = 0, right = nums.length - 1;
 
         while (left <= right) {

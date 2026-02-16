@@ -10,6 +10,8 @@ public class LongestCommonPrefix {
         if (strs.length == 1) return strs[0];
 
         Arrays.sort(strs);
+        System.out.println("After sorting ");
+//        System.out.println(Arrays.toString(strs));
 
         char[] first = strs[0].toCharArray();
         char[] last = strs[strs.length - 1].toCharArray();

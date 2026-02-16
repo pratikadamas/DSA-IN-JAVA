@@ -1,7 +1,7 @@
 
 //subsequence is contiguous a noncontiguous sequence which follows the order
-//Total number of subsequences for an array of size n
-
+//✅Order must stay the same
+//✅Elements are not required to be contiguous
 package Recursion;
 import java.util.ArrayList;
 import java.util.List;
@@ -31,6 +31,7 @@ public class PrintAllSubsequence
         int size=li.size();
         List<Integer> list=new ArrayList<>();
         subsequnece(0,li,list,size);
+
 
     }
 }

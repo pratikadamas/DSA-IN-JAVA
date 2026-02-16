@@ -11,6 +11,7 @@ public class two_linkedlist {
             next = null;
 
         }
+
     }
 
 
@@ -78,8 +79,6 @@ public class two_linkedlist {
             dummy.add(sum%10);
 //            node newnode=new node(sum%10);
 
-
-
             carry=sum/10;
 
 //            temp1=temp1.next;
@@ -93,28 +92,24 @@ public class two_linkedlist {
 
         dummy.display();
 
-
-
     }
-
-
 
 
     public static void main(String[] args) {
         linkedList l1=new linkedList();
 
-        l1.add(1);
         l1.add(3);
         l1.add(5);
-        l1.add(7);
-        l1.add(9);
+//        l1.add(6);
+//        l1.add(7);
+//        l1.add(9);
 
         linkedList l2=new linkedList();
-        l2.add(2);
         l2.add(4);
-        l2.add(6);
         l2.add(5);
-        l2.add(0);
+        l2.add(9);
+        l2.add(9);
+//        l2.add(0);
 
         l1.display();
         System.out.println();
@@ -123,9 +118,9 @@ public class two_linkedlist {
         System.out.println();
 
         add2node(l1.head,l2.head);
-        System.out.println("\nReverse the list");
+//        System.out.println("\nReverse the list");
 
-        l1.reverse(l1.head);
+//        l1.reverse(l1.head);
 
 
 
