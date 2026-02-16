@@ -1,12 +1,13 @@
 package TREE;
 
 public class Treenode {
-    public int data;
-    public Treenode left, right;
+
+    int data;              // accessible inside same package
+    Treenode left, right;  // accessible inside same package
 
     public Treenode(int data) {
         this.data = data;
-        left = right = null;
+        this.left = null;
+        this.right = null;
     }
 }
-

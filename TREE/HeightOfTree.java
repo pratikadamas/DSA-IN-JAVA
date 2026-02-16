@@ -1,35 +1,25 @@
 package TREE;
-import TREE.Treenode;
-
-import javax.swing.tree.TreeNode;
-
 
 public class HeightOfTree {
 
-    public static int maxHeight(Treenode root   )
-    {
-        if(root==null)
-            return 0;
+    public static int height(Treenode root) {
 
-        int lh=maxHeight(root.left);
-        int rh=maxHeight(root.right);
+        if (root == null)
+            return 0;   // base case
 
-        return Math.max(lh,rh)+1;
+        int leftHeight = height(root.left);
+        int rightHeight = height(root.right);
 
+        return Math.max(leftHeight, rightHeight) + 1;
     }
 
     public static void main(String[] args) {
+
         Treenode root = new Treenode(1);
         root.left = new Treenode(2);
         root.right = new Treenode(3);
         root.left.left = new Treenode(4);
-        root.left.right = new Treenode(5);
-        root.right.left = new Treenode(6);
-        root.right.left = new Treenode(7);
-       root.right.left = new Treenode(8);
 
-        System.out.println("Height of tree is "+maxHeight(root));
-
-
+        System.out.println("Height = " + height(root));
     }
 }
