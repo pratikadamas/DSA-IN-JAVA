@@ -3,16 +3,6 @@ import java.util.*;
 
 public class ZigZagTraversal {
 
-    // TreeNode class definition (if not already defined elsewhere)
-    static class Treenode {
-        int data;
-        Treenode left, right;
-
-        Treenode(int data) {
-            this.data = data;
-        }
-    }
-
     public static List<List<Integer>> zigzag(Treenode root) {
         List<List<Integer>> res = new ArrayList<>();
         if (root == null) {
