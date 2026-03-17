@@ -20,7 +20,6 @@ public class LevelOrderTraversal {
             }
             result.add(level);
         }
-
         return  result;
     }
     public static void main(String[] args) {
