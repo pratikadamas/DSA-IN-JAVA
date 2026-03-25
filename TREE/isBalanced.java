@@ -8,7 +8,6 @@ public class isBalanced {
         }
         else if (root.left==null && root.right==null) {
             return true;
-
         }
 
         return checkheight(root)!=-1;

@@ -103,6 +103,7 @@ public class ArrayListFullExample {
         // Number of rows and columns
         int rows = list2D.size();
         int cols = list2D.get(0).size(); // assuming all rows same length
+
         System.out.println("Rows: " + rows + ", Columns: " + cols);
 
         // Swap elements example

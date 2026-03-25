@@ -16,8 +16,8 @@ public class StringFunctionsDemo {
         }
 
         // Find first occurrence of a substring
-        int index2 = str.indexOf("\nWorld");
-        System.out.println("'World' starts at index: " + index2); // 6
+        int index2 = str.indexOf("World");
+        System.out.println("\n'World' starts at index: " + index2); // 6
 
         // If not found
         int index3 = str.indexOf("Java");
