@@ -4,8 +4,8 @@ import java.util.*;
 public class FirstuniquecharacterinString {
 
     public static void main(String[] args) {
-        String s1="fourbyfourfrog";
-
+//        String s1="fourbyfourfrog";
+        String s1="ilovetocode";
         HashMap<Character,Integer> map=new HashMap<>();
         for(int i=0;i<s1.length();i++){
             char curr=s1.charAt(i);
@@ -16,10 +16,12 @@ public class FirstuniquecharacterinString {
                 map.put(curr,1);
             }
         }
+//        System.out.println(map);
+        for(int i = 0; i < s1.length(); i++){
+            char curr = s1.charAt(i);
+            if(map.get(curr) == 1){
 
-        for(char key:map.keySet()){
-            if(map.get(key)==1){
-                System.out.println("index value "+s1.indexOf(key));
+                System.out.println(curr+" index value " + i);
                 break;
             }
         }
