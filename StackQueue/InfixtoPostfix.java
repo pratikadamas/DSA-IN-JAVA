@@ -24,6 +24,7 @@ public class InfixtoPostfix {
                st.pop();
            }
            //operator
+//           Because there can be multiple operators already in the stack that must come out before the new one goes in.
            else {
               while (!st.isEmpty() && priority(st.peek())>=priority(ch)){
                   res.append(st.pop());
