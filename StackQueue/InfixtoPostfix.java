@@ -32,8 +32,6 @@ public class InfixtoPostfix {
               }
               st.push(ch);
            }
-
-
        }
 
        // remaing element
@@ -46,7 +44,7 @@ public class InfixtoPostfix {
 
 
     static int priority(char ch){
-        switch(ch){
+        switch (ch){
             case '+':
                 case '-': return 1;
                     case '*':
