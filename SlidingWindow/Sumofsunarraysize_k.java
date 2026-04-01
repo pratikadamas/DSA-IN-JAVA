@@ -3,6 +3,9 @@ package SlidingWindow;
 public class Sumofsunarraysize_k {
 
     static void sum(int a[], int k) {
+
+        if (k > a.length) return;
+        if (k == 0) return;
         int n = a.length;
 
         // Step 1: first window sum
