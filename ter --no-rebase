@@ -1,0 +1,16 @@
+* [33m1a29d22[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m)[m Fix project structure and add graph implementations
+* [33m66ac9d8[m Graph representation in adjacency List.
+* [33m7d3990d[m Graph representation in adjacency List.
+* [33mdf8392a[m Graph represented as adjacency matrix
+[31m|[m * [33m7774bc9[m[33m ([m[1;31morigin/master[m[33m)[m HashMap in java
+[31m|[m * [33me85038b[m 1st anf last occurence in a given string
+[31m|[m * [33mce18a8e[m find unique number using x-or /"^"
+[31m|[m * [33m7f97f1b[m find unique number using x-or /"^"
+[31m|[m * [33mba71731[m ArrayList in java
+[31m|[m * [33m133864a[m Array list in java
+[31m|[m[31m/[m  
+* [33me52595f[m Weighted Word Mapping
+* [33m4fa474b[m Weighted Word Mapping
+* [33m6789d6a[m Finding unique number use x-or operations
+* [33m4ac86cd[m 1st and last occurence a number in array index
+* [33m6ac64fc[m conut no of elemrnt if x exist the x+1 also exist
