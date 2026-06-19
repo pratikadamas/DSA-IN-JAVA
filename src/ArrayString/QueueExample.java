@@ -7,7 +7,6 @@ public class QueueExample {
         // ✅ Create a Queue (ArrayDeque is faster than LinkedList)
         Queue<Integer> queue = new ArrayDeque<>();
 
-
         // -------------------------------
         // 1️⃣ offer(E item) → Add element to the queue (end)
         // -------------------------------
