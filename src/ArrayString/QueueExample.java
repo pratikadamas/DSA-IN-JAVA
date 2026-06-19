@@ -7,6 +7,7 @@ public class QueueExample {
         // ✅ Create a Queue (ArrayDeque is faster than LinkedList)
         Queue<Integer> queue = new ArrayDeque<>();
 
+
         // -------------------------------
         // 1️⃣ offer(E item) → Add element to the queue (end)
         // -------------------------------
@@ -38,6 +39,7 @@ public class QueueExample {
         boolean empty = queue.isEmpty();
         System.out.println("Is queue empty? " + empty);
         // Output: false
+
 
         // -------------------------------
         // 5️⃣ size() → Number of elements
