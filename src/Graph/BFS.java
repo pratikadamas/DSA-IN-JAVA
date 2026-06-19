@@ -20,7 +20,7 @@ public class BFS {
 
     public  static LinkedList<Integer> BFSTraversal(LinkedList<LinkedList<Integer>> adj,int start)
     {
-        LinkedList<Integer> bfs=new LinkedList<>();
+        LinkedList<Integer> bfs=new LinkedList<>(); // to store traversal result
         int V = adj.size(); // no of vertex size of adjacency list
         int[] visited=new int[V];
         Queue<Integer> queue=new LinkedList<>();
@@ -32,7 +32,7 @@ public class BFS {
             int node=queue.poll();
             bfs.add(node);
 
-            for (int nbr:adj.get(node)){
+            for (int nbr:adj.get(node)){ // track neighbour vertex/nodes
                 if (visited[nbr]==0){
                     visited[nbr]=1;
                     queue.add(nbr);
