@@ -1,4 +1,4 @@
-package TREE;
+package Tree;
 public class Diameter {
    static int diameter(Treenode root){
        if(root==null){

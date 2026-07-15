@@ -1,4 +1,4 @@
-package TREE;
+package Tree;
 import java.util.*;
 
 public class ZigZagTraversal {

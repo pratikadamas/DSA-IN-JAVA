@@ -1,8 +1,8 @@
 package Graph;
-
 import java.util.*;
 
-public class DFS {
+public class DFS
+{
     public static void main(String[] args)
     {
         LinkedList<LinkedList<Integer>> adjList = new LinkedList<>();

@@ -1,5 +1,4 @@
-package TREE;
-import java.util.*;
+package Tree;
 
 public class isBalanced {
     public static  boolean isBalanced(Treenode root) {

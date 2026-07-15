@@ -1,4 +1,4 @@
-package TREE;
+package Tree;
 
 public class HeightOfTree {
 

@@ -1,7 +1,9 @@
 package Graph;
 import java.util.*;
+
 class Topologicalsort {
-    public int[] topologicalSort(int V, ArrayList<ArrayList<Integer>> adj) {
+    public int[] topologicalSort(int V, ArrayList<ArrayList<Integer>> adj)
+    {
         boolean[] visited = new boolean[V];
 
         Stack<Integer> st = new Stack<>();
@@ -38,9 +40,9 @@ class Topologicalsort {
         adj.add(new ArrayList<>(Arrays.asList(3)));
         adj.add(new ArrayList<>(Arrays.asList(3)));
         adj.add(new ArrayList<>());
-
         Topologicalsort ts = new Topologicalsort();
         int[] result = ts.topologicalSort(4, adj);
         System.out.println(Arrays.toString(result));
+
     }
 }
