@@ -14,9 +14,12 @@ public class LCM {
     }
 
     public static void main(String[] args) {
+        System.out.println("LCM tow number in java");
 
         long a = 120000;
         long b = 155698;
+        int d=1;
+        System.out.println(d);
 
         System.out.println(findLCM(a, b));
     }
