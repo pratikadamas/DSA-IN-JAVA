@@ -1,7 +1,8 @@
 package ArrayString;
 
 public class maxProduct {
-    public int findMaxProduct(int n) {
+    public int findMaxProduct(int n)
+    {
         long value = Math.abs((long) n);
         if (value < 10) {
             return 0;
