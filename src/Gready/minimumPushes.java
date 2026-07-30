@@ -1,6 +1,7 @@
 package Gready;
 // asume the input string contains all distinct letter
-public class minimumPushes {
+public class minimumPushes
+{
 
     public int minimumPushes(String word) {
         int ans = 0;
