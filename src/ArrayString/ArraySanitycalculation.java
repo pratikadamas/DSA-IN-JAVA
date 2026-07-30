@@ -2,7 +2,8 @@ package ArrayString;
 import java.util.*;
 //Sanity = Original Index (before sorting) + Index of Last Occurrence of that value in the Sorted Array
 
-public class ArraySanitycalculation {
+public class ArraySanitycalculation
+{
     public static int userLogic(int n, int[] arr) {
         // Step 1: Count frequency of each value (TreeMap keeps keys sorted)
         Map<Integer, Integer> freq = new TreeMap<>();
