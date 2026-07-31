@@ -1,6 +1,7 @@
 package ArrayString;
 
-public class FirstMissingPositive {
+public class FirstMissingPositive
+{
 
     public  static int firstMissingPositive(int[] nums) {
         int n = nums.length;
