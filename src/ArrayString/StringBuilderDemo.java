@@ -1,7 +1,8 @@
 package ArrayString;
 
 public class StringBuilderDemo {
-    public static void main(String[] args) {
+    public static void main(String[] args)
+    {
 
         // 1. Creating StringBuilder objects
         StringBuilder sb1 = new StringBuilder(); // Empty StringBuilder
