@@ -1,6 +1,7 @@
 package ArrayString;
 
-public class PeakElement {
+public class PeakElement
+{
     public  static int findPeakElement(int[] nums)
     { int n = nums.length;
         if(n==0)
