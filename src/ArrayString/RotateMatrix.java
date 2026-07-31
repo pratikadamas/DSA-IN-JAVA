@@ -3,7 +3,8 @@ import java.util.*;
 
 // Rotate Matrix in 90 degree
 
-public class RotateMatrix {
+public class RotateMatrix
+{
     public static void main(String[] args) {
         Vector<Vector<Integer>> vec = new Vector<>();
         vec.add(new Vector<>(Arrays.asList(1, 2, 3, 4)));
