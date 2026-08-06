@@ -11,7 +11,7 @@ public class instence {
     public static void main(String[] args) {
         System.out.println("java code execution started");
         instence obj1 = new instence();
-//        instence obj2 = new instence();
+        instence obj2 = new instence();
         System.out.println("java code execution ended");
 
     }

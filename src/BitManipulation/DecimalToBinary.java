@@ -2,17 +2,15 @@ package BitManipulation;
 import java.util.*;
 
 public class DecimalToBinary {
-    public static void main(String[] args) {
-
+    public static void main(String[] args)
+    {
         ArrayList<Integer> list = new ArrayList<>();
         Scanner sc = new Scanner(System.in); // create scanner object
 
         System.out.println("Enter an integer: ");
         int n = sc.nextInt();
 
-
-
-            while (n != 0) {
+        while (n != 0) {
                 list.add(n % 2);
                 n /= 2;
             }
