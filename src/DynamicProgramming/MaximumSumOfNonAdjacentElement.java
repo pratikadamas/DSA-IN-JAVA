@@ -18,6 +18,29 @@ public class MaximumSumOfNonAdjacentElement {
         return prev1;
     }
 
+    public static int maximumSum(int[] arr) {
+
+        int n = arr.length;
+
+        if (n == 0) return 0;
+        if (n == 1) return arr[0];
+
+        int[] dp = new int[n];
+
+        dp[0] = arr[0];
+        dp[1] = Math.max(arr[0], arr[1]);
+
+        for (int i = 2; i < n; i++) {
+
+            int take = arr[i] + dp[i - 2];
+            int skip = dp[i - 1];
+
+            dp[i] = Math.max(take, skip);
+        }
+
+        return dp[n - 1];
+    }
+
     public static void main(String[] args) {
 
         int[] arr = {1, 2, 3, 4, 5};
@@ -26,6 +49,8 @@ public class MaximumSumOfNonAdjacentElement {
 
         int[] arr1 = {5, 1, 2, 10, 6, 2};
         System.out.println(maxSum(arr1));
+
+
 
     }
 }
