@@ -2,7 +2,7 @@ package DynamicProgramming;
 
 import java.util.Arrays;
 
-public class MinimunNoOfCoin {
+public class MinimumNoOfCoin {
     public static  int minCoins(int[] coins, int amount){
 
         if(amount == 0){
@@ -11,7 +11,7 @@ public class MinimunNoOfCoin {
         if(amount <0){
             return -1;
         }
-        int dp[] = new int[amount+1];
+        int[] dp = new int[amount+1];
 
         // fill all value impossible
         Arrays.fill(dp,Integer.MAX_VALUE);
