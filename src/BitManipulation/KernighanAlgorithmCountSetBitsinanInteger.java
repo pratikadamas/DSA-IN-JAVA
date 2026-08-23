@@ -2,7 +2,8 @@ package BitManipulation;
 
 import java.util.Scanner;
 
-public class KernighanAlgorithmCountSetBitsinanInteger {
+public class KernighanAlgorithmCountSetBitsinanInteger
+{
     public static void main(String[] args) {
         Scanner sc =new Scanner(System.in);
         System.out.println("Enter the number ");
