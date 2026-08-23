@@ -3,7 +3,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 //how to use bit manipulation to generate all combinations
-public class BitmaskSubsets {
+public class BitmaskSubsets
+{
     public static List<List<Integer>> generateSubsets(int[] nums) {
         int n = nums.length;
         int totalSubsets = 1 << n; // 2^n
