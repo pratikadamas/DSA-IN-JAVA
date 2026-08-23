@@ -3,7 +3,8 @@ package BitManipulation;
 import java.util.*;
 
 
-public class ToggleTheBit {
+public class ToggleTheBit
+{
     public static  int getlength(int n){
         ArrayList<Integer> list = new ArrayList<>();
         while(n!=0){
