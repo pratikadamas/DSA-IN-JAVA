@@ -1,7 +1,8 @@
 package BitManipulation;
 import java.util.*;
 
-public class PowerSet {
+public class PowerSet
+{
 
     public static List<List<Integer>> getPowerSet(int[] arr) {
         int n = arr.length;
