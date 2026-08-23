@@ -11,7 +11,6 @@ public class ClearBit {
             list.add(n%2);
             n/=2;
         }
-
         Collections.reverse(list);
         int len=list.size();
         return len;
