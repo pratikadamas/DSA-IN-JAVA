@@ -1,6 +1,7 @@
 package DynamicProgramming;
 //Algorithm: Partition Array into Two Equal-Sum Subsets
-public class PartitionArrayintoTwoEqualSumSubsets {
+public class PartitionArrayintoTwoEqualSumSubsets
+{
     public static boolean canPartition(int[] nums) {
         int totalSum = 0;
         for (int num : nums) {
