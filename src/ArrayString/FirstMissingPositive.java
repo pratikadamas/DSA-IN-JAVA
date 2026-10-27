@@ -7,7 +7,8 @@ public class FirstMissingPositive
         int n = nums.length;
 
         // Step 1: Replace all <=0 and >n numbers with a dummy (n+1)
-        for (int i = 0; i < n; i++) {
+        for (int i = 0; i < n; i++)
+        {
             if (nums[i] <= 0 || nums[i] > n)
                 nums[i] = n + 1;
         }
