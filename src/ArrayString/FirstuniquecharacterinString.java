@@ -1,7 +1,8 @@
 package ArrayString;
 import java.util.*;
 
-public class FirstuniquecharacterinString {
+public class FirstuniquecharacterinString
+{
 
     public static void main(String[] args) {
 //        String s1="fourbyfourfrog";
